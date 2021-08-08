@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layouts.templates');
+    return view('index');
 });
 Route::get('inicio', function () {
     return view('index');
